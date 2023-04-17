@@ -9,7 +9,7 @@ const Formulario = ({ cliente }) => {
                 <input 
                     id="nombre"
                     type="text"
-                    className="mt-2 block w-full p-3 bg-gray-50"
+                    className="mt-2 block w-full p-3 bg-gray-100"
                     placeholder="Nombre del Cliente"
                     name="nombre"
                     defaultValue={cliente?.nombre}
@@ -23,7 +23,7 @@ const Formulario = ({ cliente }) => {
                 <input 
                     id="empresa"
                     type="text"
-                    className="mt-2 block w-full p-3 bg-gray-50"
+                    className="mt-2 block w-full p-3 bg-gray-100"
                     placeholder="Empresa del Cliente"
                     name="empresa"
                     defaultValue={cliente?.empresa}
@@ -38,7 +38,7 @@ const Formulario = ({ cliente }) => {
                 <input 
                     id="email"
                     type="email"
-                    className="mt-2 block w-full p-3 bg-gray-50"
+                    className="mt-2 block w-full p-3 bg-gray-100"
                     placeholder="Email del Cliente"
                     name="email"
                     defaultValue={cliente?.email}
@@ -53,7 +53,7 @@ const Formulario = ({ cliente }) => {
                 <input 
                     id="telefono"
                     type="tel"
-                    className="mt-2 block w-full p-3 bg-gray-50"
+                    className="mt-2 block w-full p-3 bg-gray-100"
                     placeholder="Teléfono del Cliente"
                     name="telefono"
                     defaultValue={cliente?.telefono}
@@ -69,7 +69,7 @@ const Formulario = ({ cliente }) => {
                     as="textarea"
                     id="notas"
                     type="text"
-                    className="mt-2 block w-full p-3 bg-gray-50 h-40 align-self"
+                    className="mt-2 block w-full p-3 bg-gray-100 h-40 align-self"
                     placeholder="Notas del Cliente"
                     name="notas"
                     defaultValue={cliente?.notas}
